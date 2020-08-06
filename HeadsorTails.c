@@ -29,18 +29,6 @@ int main(){
             printf("Round %d: Tails\n", i + 1);
         }
     }
-printf("Heads: %d, Tails: %d\n", heads, tails);
-
-    if(heads > tails)
-    {
-        printf("%s won!\n", name);
-    }
-    
-    else
-    {
-        printf("%s lost!\n", name);
-    }
-
 
   
     return 0;
